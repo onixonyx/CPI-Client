@@ -6,7 +6,7 @@ import { MemoryStore } from './store/MemoryStore';
 import { FileStore } from './store/FileStore';
 
 // Default URL the client visits
-export const DEFAULT_URL = 'https://www.cpzero.net/';
+export const DEFAULT_URL = 'https://play.cpinfinite.com/';
 
 export type Store = {
     public: BaseStore<PublicSchema>;

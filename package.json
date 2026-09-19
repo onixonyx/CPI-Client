@@ -1,7 +1,7 @@
 {
-  "name": "cpzero",
+  "name": "cpinfinite",
   "version": "1.0.2",
-  "description": "Desktop client for Club Penguin Zero",
+  "description": "Desktop client for Club Penguin Infinite",
   "main": "./compiled/main.js",
   "scripts": {
     "clean": "rimraf compiled/",
@@ -16,10 +16,10 @@
     "postinstall": "patch-package"
   },
   "bugs": {
-    "url": "https://github.com/ClubPenguinZero/CPZ-Client/issues"
+    "url": "https://github.com/onixonyx/CPI-Client/issues"
   },
-  "homepage": "https://github.com/ClubPenguinZero/CPZ-Client/#readme",
-  "repository": "https://github.com/ClubPenguinZero/CPZ-Client",
+  "homepage": "https://github.com/onixonyx/CPI-Client/#readme",
+  "repository": "https://github.com/onixonyx/CPI-Client/",
   "author": "renanrcp",
   "contributors": [
     "ooowoothevirtualhowler",
@@ -29,17 +29,17 @@
   "license": "MIT",
   "build": {
     "electronDist": "node_modules/electron/dist",
-    "appId": "net.cpzero.desktop",
-    "productName": "CPZero Desktop",
+    "appId": "com.cpinfinite.desktop",
+    "productName": "CPInfinite Desktop",
     "asar": "false",
     "win": {
       "publish": "github",
-      "artifactName": "CPZero-Client-Setup-${version}.${ext}"
+      "artifactName": "CPZero-Infinite-Setup-${version}.${ext}"
     },
     "mac": {
       "category": "game",
       "icon": "./assets/icon.icns",
-      "artifactName": "CPZero-Client-${version}.${ext}"
+      "artifactName": "CPInfinite-Client-${version}.${ext}"
     },
     "linux": {
       "category": "Game",
@@ -52,10 +52,10 @@
       "maintainer": "renanrcp"
     },
     "appImage": {
-      "synopsis": "Club Penguin Zero Client",
-      "description": "Desktop client for Club Penguin Zero",
+      "synopsis": "Club Penguin Infinite Client",
+      "description": "Desktop client for Club Penguin Infinite",
       "category": "Game",
-      "artifactName": "CPZero-Client-${version}.${ext}"
+      "artifactName": "CPInfinite-Client-${version}.${ext}"
     }
   },
   "devDependencies": {

@@ -39,4 +39,7 @@ electron-api.json
 electron.d.ts
 
 # Eslint
-.eslintcache*
+.eslintcache
+
+# Build output
+dist/
